@@ -1,0 +1,63 @@
+.row{
+padding: 20px;
+color:white;
+
+}
+
+div{
+background-color: rgb(17, 52, 85) ;
+text-align: center;
+Font-family:'Roboto';
+box-shadow: 2px 2px #999;
+}
+
+div #nombre{
+    Font-family:'Kaushan Script',cursive;
+    font-size: 25px;
+
+}
+/* etiqueta de foto de perfil: 
+para el minimo de 576 px de ahi para arriba */
+@media (min-width:576px){
+    #fotoPerfil{
+       
+        position:absolute;
+        width:15%;
+        border-radius:100%;
+        box-shadow: 3px 3px 3px gray;
+        left: 3%;
+        top:500px;
+    }
+
+
+}
+@media (max-width:575px){
+    #fotoPerfil{
+       
+        position:absolute;
+        width:30%;
+        border-radius:100%;
+        box-shadow: 3px 3px 3px gray;
+        left: 33%;
+        top:700px;
+    }
+
+
+}
+
+
+
+/* etiqueta nombre */
+#idnombre{
+font-weight: bold;
+ margin: top 30%;
+margin-left:10px;
+
+}
+
+#idboton{
+   padding:50px;
+    
+}
+
+
