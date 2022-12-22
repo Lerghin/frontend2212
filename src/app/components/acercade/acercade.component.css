@@ -21,14 +21,18 @@ para el minimo de 576 px de ahi para arriba */
 @media (min-width:576px){
     #fotoPerfil{
        
-        position:absolute;
-        width:15%;
+        
         border-radius:100%;
         box-shadow: 3px 3px 3px gray;
-        left: 3%;
-        top:500px;
+       
     }
+.descripcion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+
+}
 
 }
 @media (max-width:575px){
@@ -60,4 +64,7 @@ margin-left:10px;
     
 }
 
-
+.button{
+    justify-content: right;
+        align-items: right;
+}
