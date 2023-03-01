@@ -1,5 +1,10 @@
 {
-  "storage": {
-    "rules": "storage.rules"
+  "hosting": {
+    "public": "dist/proyect-final",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
   }
 }

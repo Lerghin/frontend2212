@@ -12,7 +12,7 @@ const AUTHORITIES_KEY = 'AuthAuthoritie';
   providedIn: 'root'
 })
 export class PersonaService {
-URL= 'http://localhost:8080/personas/';
+URL= 'https://above-tallia-lerghin.koyeb.app/personas/';
 
   constructor(private httpClient: HttpClient) { }
   public lista(): Observable<persona[]> {
